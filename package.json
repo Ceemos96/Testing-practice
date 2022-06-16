@@ -1,0 +1,23 @@
+{
+  "name": "testing-practice",
+  "description": "",
+  "version": "1.0.0",
+  "main": "string.js",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ceemos96/Testing-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ceemos96/Testing-practice/issues"
+  },
+  "homepage": "https://github.com/Ceemos96/Testing-practice#readme"
+}
