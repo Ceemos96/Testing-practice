@@ -1,6 +1,7 @@
 const stringLength = require ("./string");
 const reverse = require ("./reverse");
 const Calculator = require("./calculator");
+const capitalize = require("./capitalize");
 
 test('length of the passed string', () => {
     expect(stringLength('microverse')).toBe(10);
@@ -62,3 +63,14 @@ const result = new Calculator(8, 4);
         })
     })
 });
+
+describe('capitalize string', () => {
+    test('input must be a string', () => {
+        expect(capitalize(typeof('string'))).toBe('String')
+    })
+    test('capitalize input', () => {
+        expect(capitalize('testing')).toBe('Testing');
+    })
+
+});
+
